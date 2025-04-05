@@ -57,9 +57,17 @@
 		63293A622DA1A0A9009B703D /* Dynamicprogramming */ = {
 			isa = PBXGroup;
 			children = (
-				63293A632DA1A0A9009B703D /* main.swift */,
+				63C672F52DA1AF850040D876 /* Dynamic */,
 			);
 			path = Dynamicprogramming;
+			sourceTree = "<group>";
+		};
+		63C672F52DA1AF850040D876 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				63293A632DA1A0A9009B703D /* main.swift */,
+			);
+			path = Dynamic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

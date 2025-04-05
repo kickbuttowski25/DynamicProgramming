@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//recursion
+//MARK: recursion
 //Factorial
 // Recursion uses concept of call Stack to store all the calls or data/variables and remove each calls after they are called from stack
 func goHome(_ x: inout Int, _ home:inout Int) {
@@ -21,4 +21,24 @@ func goHome(_ x: inout Int, _ home:inout Int) {
 
 var a = 1
 var b = 10
+var c = 5
+
 goHome(&a, &b)
+
+
+//MARK: factorial
+//Base Case
+//Recursive Case
+
+func factorial(_ n: Int) -> Int{
+    if n == 0 {
+        print("done", n)
+        return 1
+    }
+    let fact = n * factorial(n - 1)
+    print("n", fact)
+    return fact
+}
+//var f = 5
+var g = 6
+factorial(g)
