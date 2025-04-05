@@ -25,20 +25,6 @@ var c = 5
 
 goHome(&a, &b)
 
-
-//MARK: factorial
-//Base Case
-//Recursive Case
-
-func factorial(_ n: Int) -> Int{
-    if n == 0 {
-        print("done", n)
-        return 1
-    }
-    let fact = n * factorial(n - 1)
-    print("n", fact)
-    return fact
-}
 //var f = 5
 var g = 6
 factorial(g)
