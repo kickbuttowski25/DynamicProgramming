@@ -28,3 +28,5 @@ goHome(&a, &b)
 //var f = 5
 var g = 6
 factorial(g)
+let series = fibonacciSeries(n: 7)
+print("fibonacciSeries", series)
