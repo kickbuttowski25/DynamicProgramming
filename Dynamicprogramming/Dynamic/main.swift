@@ -30,3 +30,11 @@ var g = 6
 factorial(g)
 let series = fibonacciSeries(n: 7)
 print("fibonacciSeries", series)
+
+var arr = [1,2,3,4,6,7]
+var n = arr.count
+print("sortedArray: ",sortedArray(arr, n))
+
+var sArr = [1,2,3,4,8,5,7]
+
+print("isSortedarray: ",isSortedArray(sArr, 0, n))
