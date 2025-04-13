@@ -38,3 +38,9 @@ print("sortedArray: ",sortedArray(arr, n))
 var sArr = [1,2,3,4,8,5,7]
 
 print("isSortedarray: ",isSortedArray(sArr, 0, n))
+
+decreasingNumbers(5)
+increasingNumbers(5)
+
+print("power: ",power(2, 10))
+print("fastpower: ",fastPower(2, 10))
