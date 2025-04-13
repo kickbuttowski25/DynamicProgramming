@@ -9,8 +9,12 @@
 /* Begin PBXBuildFile section */
 		63293A642DA1A0A9009B703D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63293A632DA1A0A9009B703D /* main.swift */; };
 		6386A7462DAAC7360042B28F /* SortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386A7452DAAC7360042B28F /* SortedArray.swift */; };
+<<<<<<< HEAD
 		638C22852DAC0EFB000159FE /* recursiveNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C22842DAC0EFB000159FE /* recursiveNumbers.swift */; };
 		638C22872DAC15A4000159FE /* PowerFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C22862DAC15A4000159FE /* PowerFunction.swift */; };
+=======
+		638C228B2DAC235E000159FE /* TileProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C228A2DAC235E000159FE /* TileProblem.swift */; };
+>>>>>>> 30ac441 (Added file for tile problem)
 		63BD0FDE2DA592BB002DCB36 /* FibonacciSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BD0FDD2DA592BB002DCB36 /* FibonacciSeries.swift */; };
 		63C672F92DA1B70C0040D876 /* Factorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C672F82DA1B70C0040D876 /* Factorial.swift */; };
 /* End PBXBuildFile section */
@@ -31,8 +35,12 @@
 		63293A602DA1A0A9009B703D /* Dynamicprogramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dynamicprogramming; sourceTree = BUILT_PRODUCTS_DIR; };
 		63293A632DA1A0A9009B703D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6386A7452DAAC7360042B28F /* SortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedArray.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		638C22842DAC0EFB000159FE /* recursiveNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recursiveNumbers.swift; sourceTree = "<group>"; };
 		638C22862DAC15A4000159FE /* PowerFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerFunction.swift; sourceTree = "<group>"; };
+=======
+		638C228A2DAC235E000159FE /* TileProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileProblem.swift; sourceTree = "<group>"; };
+>>>>>>> 30ac441 (Added file for tile problem)
 		63BD0FDD2DA592BB002DCB36 /* FibonacciSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciSeries.swift; sourceTree = "<group>"; };
 		63C672F82DA1B70C0040D876 /* Factorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,9 +75,18 @@
 		63293A622DA1A0A9009B703D /* Dynamicprogramming */ = {
 			isa = PBXGroup;
 			children = (
+				638C22892DAC2345000159FE /* Problems */,
 				63C672F52DA1AF850040D876 /* Dynamic */,
 			);
 			path = Dynamicprogramming;
+			sourceTree = "<group>";
+		};
+		638C22892DAC2345000159FE /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				638C228A2DAC235E000159FE /* TileProblem.swift */,
+			);
+			path = Problems;
 			sourceTree = "<group>";
 		};
 		63C672F52DA1AF850040D876 /* Dynamic */ = {
@@ -148,6 +165,7 @@
 				638C22852DAC0EFB000159FE /* recursiveNumbers.swift in Sources */,
 				63293A642DA1A0A9009B703D /* main.swift in Sources */,
 				63BD0FDE2DA592BB002DCB36 /* FibonacciSeries.swift in Sources */,
+				638C228B2DAC235E000159FE /* TileProblem.swift in Sources */,
 				63C672F92DA1B70C0040D876 /* Factorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

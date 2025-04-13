@@ -44,3 +44,5 @@ increasingNumbers(5)
 
 print("power: ",power(2, 10))
 print("fastpower: ",fastPower(2, 10))
+
+print("tiles:", tileProblem(7))
