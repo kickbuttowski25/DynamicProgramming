@@ -42,3 +42,5 @@ print("isSortedarray: ",isSortedArray(sArr, 0, n))
 decreasingNumbers(5)
 increasingNumbers(5)
 
+print("power: ",power(2, 10))
+print("fastpower: ",fastPower(2, 10))
