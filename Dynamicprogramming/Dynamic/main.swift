@@ -47,3 +47,4 @@ print("fastpower: ",fastPower(2, 10))
 
 print("tiles:", tileProblem(7))
 print("countStrings:", countStrings(2))
+print("friendPairing:", friendPairing(3))
